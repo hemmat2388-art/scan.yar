@@ -1,8 +1,17 @@
-[{
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "io.github.hemmat2388_art.twa",
-        "sha256_cert_fingerprints": ["48:7C:BC:2A:23:8F:A8:38:6D:2B:3C:05:F9:C3:4B:34:4F:DD:32:EC:EE:15:14:6E:06:9E:1E:8F:43:7D:1E:37"]
-      }
-    }]
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.hemmat2388_art.twa",
+      "sha256_cert_fingerprints": ["48:7C:BC:2A:23:8F:A8:38:6D:2B:3C:05:F9:C3:4B:34:4F:DD:32:EC:EE:15:14:6E:06:9E:1E:8F:43:7D:1E:37"]
+    }
+  },
+  {
+    "relation": ["check_validation"],
+    "target": {
+      "namespace": "cafebazaar_twa",
+      "package_name": "io.github.hemmat2388_art.twa"
+    }
+  }
+]
